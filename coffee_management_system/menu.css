@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.menu-con{
+  display: grid;
+  max-height: 1000px;
+  grid-template-columns: repeat(3, 250px);
+  gap: 50px;
+}
+.menu-detail {
+  padding: 20px;
+}
+.menu-detail h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.menu-img img {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.menu-img img:hover {
+  transform: scale(1.05); /* Scale the image on hover */
+}
+.menu-click {
+  position: absolute;
+  top: 60px;
+  right: 35px;
+  height: auto;
+  width: 25%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-click {
+  color: none;
+  border: none;
+  padding: 1px 1px;
+  border-radius: 1px;
+  cursor: pointer;
+  justify-items: center;
+}
+
+
+.menu-price p {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #eee;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-click h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#menu-details {
+  margin-bottom: 20px;
+}
+
+.btn-checkout {
+  background-color: #009821;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-checkout:hover{
+  background-color: #00e238;
+}
+.btn-create {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 194px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-create:hover{
+  background-color: #62b2e8;
+}
